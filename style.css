@@ -12,7 +12,7 @@ font-size: 50px;
 color: rgb(146, 65, 201);
 }
 
-section{
+.chamada{
     background: rgb(155, 6, 6);
     padding-top: 20px;
     padding-bottom:40px;
@@ -37,4 +37,8 @@ img{
     display:flex;
     overflow-x:auto;
     gap:10px;
+}
+.categoria{
+    padding-left:20px;
+    padding-right:20px;
 }
