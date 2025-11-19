@@ -3,10 +3,12 @@ color:rgb(90, 35, 179);
 background: rgb(61, 0, 85);
 margin: 0px;
 font-family:"Manufacturing Consent", static;
+margin-botom: 100px;
 }
 
 header{
-border-bottom: solid 7px rgb(4, 80, 18);
+border-bottom: scolor:rgb(90, 35, 179);
+solid 7px rgb(4, 80, 18);
 padding:20px;
 font-size: 50px;
 color: rgb(146, 65, 201);
@@ -36,9 +38,21 @@ img{
 .categoria-videos{
     display:flex;
     overflow-x:auto;
-    gap:10px;
+    gap:1 0px;
 }
 .categoria{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categorias-videos.img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categorias-videos.img:hover{
+opacity: 1.0;
+border: 1px solid color(srgb rgb(71, 14, 7) rgb(91, 109, 91) rgb(2, 2, 153));
+}
+.categori h2{
+ color:rgb(90, 35, 179);
 }
